@@ -121,7 +121,7 @@ A row with no *Check* line has no verification recorded in the sources read.
   - Unpublished; no claim of correction.
   - Check: not verified
 - **Exoplanets (TESS)**: 29 transit times predicted for TESS sectors 109-110, plus TOI-1452 b, frozen with timestamps (OpenTimestamps and FreeTSA) before the data.
-  - Sector 110 began on 2026-10-31 and a ground-based test of TOI-1452 b was planned for 2026-11-01; no outcome is recorded here yet.
+  - Sector 110 began on 2026-10-31 and the ground-based test of TOI-1452 b planned for 2026-11-01 did not take place (no observation that night).
   - The predicted values are not part of this register.
   - Status: preregistered prediction, awaiting data
   - Check: not verified
