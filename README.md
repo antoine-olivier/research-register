@@ -3,17 +3,17 @@
 Antoine Olivier, independent researcher (ORCID 0009-0009-9710-3682).
 The work is done with AI assistants under the author's direction. The author is responsible for it; no AI system is an author.
 
-State as of 2026-10-31: 90 entries in 27 rows. Each row gives its status and how it was checked; results.csv adds the sources with the date they were read, where a public source exists.
+State as of 2026-11-02: 90 entries in 28 rows. Each row gives its status and how it was checked; results.csv adds the sources with the date they were read, where a public source exists.
 A DOI appears only once the deposit is public. *Deposit pending* means a deposit is in preparation.
 A row with no *Check* line has no verification recorded in the sources read.
 
 ## At a glance
 
-- 21 entries: accepted by a table or its maintainer
+- 20 entries: accepted by a table or its maintainer
 - 6 entries: better than the table, not yet listed
 - 39 entries: submitted, no answer yet
 - 2 entries: posted publicly
-- 11 entries: since beaten
+- 12 entries: since beaten
 - 2 entries: found earlier by others
 - 3 entries: negative results and refuted claims
 - 6 entries: not published yet
@@ -26,7 +26,7 @@ A row with no *Check* line has no verification recorded in the sources read.
 - **Constant-weight codes** (8 entries): Lower bounds A(22,6,10) ≥ 2184, A(27,6,11) ≥ 19344, A(26,8,11) ≥ 2044, A(27,8,9) ≥ 1044, A(28,10,14) ≥ 817, A(30,10,11) ≥ 514, A(30,10,13) ≥ 940 and A(32,10,9) ≥ 307, accepted in Brouwer's table.
   - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
   - Links: [DOI](https://doi.org/10.5281/zenodo.23776838) · [Brouwer table](https://aeb.win.tue.nl/codes/Andw.html)
-- **Spherical codes** (6 entries): Six entries of the spherical-codes table, credited "Antoine Olivier, 2026": (11,82) 0.263018342364; (12,66) 0.214718112242; (12,92) 0.258276397340; (13,72) 0.205422579377; (14,76) 0.189882980940; (14,80) 0.195566522972 (maximum cosine).
+- **Spherical codes** (5 entries): Five entries of the spherical-codes table, credited "Antoine Olivier, 2026": (11,82) 0.263018342364; (12,66) 0.214718112242; (12,92) 0.258276397340; (14,76) 0.189882980940; (14,80) 0.195566522972 (maximum cosine).
   - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
   - Links: [DOI](https://doi.org/10.5281/zenodo.23776897) · [spherical-codes.org](https://spherical-codes.org/)
 - **OEIS**: Terms a(9) = 249696 and a(10) = 11498629 of A277203, approved by the OEIS editors on 2026-10-27.
@@ -46,7 +46,7 @@ A row with no *Check* line has no verification recorded in the sources read.
 ## Better than the table, not yet listed
 
 - **Cluster energies (Cambridge Cluster Database)** (6 entries): Six cluster energies below the Cambridge Cluster Database entries (mDz N = 74, 134, 177, 186; Z1 N = 54, 68).
-  - The database page had not changed as of 2026-10-28.
+  - The database page had not changed as of 2026-11-02.
   - The Z1 values have not yet been compared with other published searches.
   - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
   - Links: [DOI](https://doi.org/10.5281/zenodo.23775350) · [CCD](https://www-wales.ch.cam.ac.uk/~wales/CCD/)
@@ -80,11 +80,14 @@ A row with no *Check* line has no verification recorded in the sources read.
 - **Kissing numbers** (2 entries): Lower bounds τ33 ≥ 364352 and τ34 ≥ 384260 (now 370376 and 390990, Kravatskiy 2026).
   - Check: two or more local checkers
   - Links: [Cohn table](https://cohn.mit.edu/kissing-numbers)
-- **Kissing numbers**: Lower bound τ37 ≥ 498216, superseded by 499816 (Lin, 2026-10-22) and now 505503 (Kravatskiy, read 2026-10-29).
+- **Kissing numbers**: Lower bound τ37 ≥ 498216, superseded by 499816 (Lin, 2026-10-22) and now 505503 (Kravatskiy).
   - Links: [Cohn table](https://cohn.mit.edu/kissing-numbers)
 - **Kissing numbers**: Lower bound τ37 ≥ 500008, built from Lin's 499816 configuration (192 vectors added); superseded by 505503 (Kravatskiy).
   - The Zenodo record carries a supersession notice since 2026-10-29.
   - Links: [DOI](https://doi.org/10.5281/zenodo.23569153) · [Cohn table](https://cohn.mit.edu/kissing-numbers)
+- **Spherical codes**: Entry (13,72) 0.205422579377 was accepted in the spherical-codes table, then superseded by A. Jay's 2026 entry (0.205420952116).
+  - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
+  - Links: [DOI](https://doi.org/10.5281/zenodo.23776897) · [spherical-codes.org](https://spherical-codes.org/)
 - **Spherical codes** (4 entries): Four entries, (13,95), (15,75), (17,83) and (17,84), were superseded by H. Cohn's 2026 entries in the same table.
   - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
   - Links: [DOI](https://doi.org/10.5281/zenodo.23776897) · [spherical-codes.org](https://spherical-codes.org/)
@@ -107,7 +110,8 @@ A row with no *Check* line has no verification recorded in the sources read.
   - Check: internal audit
 - **AlphaEvolve (frontiers)**: No AlphaEvolve record beaten.
   - An exact Heilbronn verifier was written; the AlphaEvolve configurations for n = 7 to 12 of its problem 60 (Heilbronn-type, in the cube) have no symmetry of the cube.
-- **Kissing numbers (dimension 5)**: No improvement on 40 ≤ τ5 ≤ 44: no configuration of 41 points found, none with inner products in the searched ring (numerical); the upper bound 43 was not reached.
+- **Kissing numbers (dimension 5)**: No improvement found: no configuration of 41 points, none with inner products in the searched ring (numerical), and the upper bound 43 was not reached by this work.
+  - The table now gives 40 ≤ τ5 ≤ 43 (read 2026-11-02), from other work.
   - Links: [Cohn table](https://cohn.mit.edu/kissing-numbers)
 
 ## Not published yet
@@ -117,7 +121,7 @@ A row with no *Check* line has no verification recorded in the sources read.
   - Unpublished; no claim of correction.
   - Check: not verified
 - **Exoplanets (TESS)**: 29 transit times predicted for TESS sectors 109-110, plus TOI-1452 b, frozen with timestamps (OpenTimestamps and FreeTSA) before the data.
-  - Sector 110 starts on 2026-10-31 and a ground-based test of TOI-1452 b is planned for 2026-11-01.
+  - Sector 110 began on 2026-10-31 and a ground-based test of TOI-1452 b was planned for 2026-11-01; no outcome is recorded here yet.
   - The predicted values are not part of this register.
   - Status: preregistered prediction, awaiting data
   - Check: not verified
