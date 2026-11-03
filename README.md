@@ -72,7 +72,7 @@ A row with no *Check* line has no verification recorded in the sources read.
   - Green et al. kept none of these three stars as an ellipsoidal candidate.
   - A note for RNAAS is in preparation.
   - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
-  - Links: [DOI](https://doi.org/10.5281/zenodo.23534347) · [VSX](https://vsx.aavso.org/) · [Green et al. 2023 (VizieR J/MNRAS/522/29)](https://cdsarc.cds.unistra.fr/viz-bin/cat/J/MNRAS/522/29)
+  - Links: [DOI](https://doi.org/10.5281/zenodo.23534347) · [VSX](https://vsx.aavso.org/) · [Green et al. 2023 (MNRAS 522, 29; table read on VizieR J/MNRAS/522/29)](https://doi.org/10.1093/mnras/stad915)
 
 ## Since beaten
 
