@@ -3,7 +3,7 @@
 Antoine Olivier, independent researcher (ORCID 0009-0009-9710-3682).
 The work is done with AI assistants under the author's direction. The author is responsible for it; no AI system is an author.
 
-State as of 2026-11-02: 90 entries in 28 rows. Each row gives its status and how it was checked; results.csv adds the sources with the date they were read, where a public source exists.
+State as of 2026-11-02: 90 entries in 28 rows. Each row gives its status and, where one is recorded, how it was checked; results.csv adds the sources with the date they were read, where a public source exists.
 A DOI appears only once the deposit is public. *Deposit pending* means a deposit is in preparation.
 A row with no *Check* line has no verification recorded in the sources read.
 
@@ -67,10 +67,12 @@ A row with no *Check* line has no verification recorded in the sources read.
 - **Integer multiplication (κ)**: Pull request #214 re-running four verifiers of the integer-multiplication bounds project; it reports no new κ. Closed without merge on 2026-10-14.
   - Links: [GitHub PR](https://github.com/CrocSwap/integer-mult-bounds/pull/214)
 - **Variable stars**: Periods for five variables absent from VSX (lot 1).
-  - Three have no catalogued period or type (TIC 105616985, 243167163, 243167066; flagged variable from Gaia scatter by Maíz Apellániz et al. 2023; automated Green et al. 2023 fit at twice the period for TIC 243167066, not selected as a candidate) and two were reported before (TIC 436556517 at 0.44 d by Thiemann et al. 2021; TIC 402964191 scored but not selected by Green et al. 2023).
+  - Three have no catalogued period or type (TIC 105616985, 243167163, 243167066; flagged variable from Gaia scatter by Maíz Apellániz et al. 2023; automated Green et al. 2023 fit at twice the period for TIC 243167066).
+  - Two were reported before: TIC 436556517 (0.44 d, Thiemann et al. 2021; automated fit at 2.2007 d, Green et al. 2023) and TIC 402964191 (scored by Green et al. 2023).
+  - Green et al. kept none of these three stars as an ellipsoidal candidate.
   - A note for RNAAS is in preparation.
   - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
-  - Links: [DOI](https://doi.org/10.5281/zenodo.23534347) · [VSX](https://vsx.aavso.org/)
+  - Links: [DOI](https://doi.org/10.5281/zenodo.23534347) · [VSX](https://vsx.aavso.org/) · [Green et al. 2023 (VizieR J/MNRAS/522/29)](https://cdsarc.cds.unistra.fr/viz-bin/cat/J/MNRAS/522/29)
 
 ## Since beaten
 
