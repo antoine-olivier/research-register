@@ -67,7 +67,7 @@ A row with no *Check* line has no verification recorded in the sources read.
 - **Integer multiplication (κ)**: Pull request #214 re-running four verifiers of the integer-multiplication bounds project; it reports no new κ. Closed without merge on 2026-10-14.
   - Links: [GitHub PR](https://github.com/CrocSwap/integer-mult-bounds/pull/214)
 - **Variable stars**: Periods for five variables absent from VSX (lot 1).
-  - Three have no catalogued period or type (TIC 105616985, 243167163, 243167066; flagged variable from Gaia scatter by Maíz Apellániz et al. 2023; automated Green et al. 2023 fit at twice the period for TIC 243167066).
+  - Three have no catalogued period or type (TIC 105616985, 243167163, 243167066; flagged variable from Gaia scatter by Maíz Apellániz et al. 2023; automated Green et al. 2023 ellipsoidal fit for TIC 243167066 (orbital period 4.385399 d, i.e. 2.193 d, slightly outside the adopted 2.30 ± 0.09 d (below its lower bound, 2.21 d))).
   - Two were reported before: TIC 436556517 (0.44 d, Thiemann et al. 2021; automated fit at 2.2007 d, Green et al. 2023) and TIC 402964191 (scored by Green et al. 2023).
   - Green et al. kept none of these three stars as an ellipsoidal candidate.
   - A note for RNAAS is in preparation.
