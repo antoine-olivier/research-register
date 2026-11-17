@@ -3,15 +3,15 @@
 Antoine Olivier, independent researcher (ORCID 0009-0009-9710-3682).
 The work is done with AI assistants under the author's direction. The author is responsible for it; no AI system is an author.
 
-State as of 2026-11-17: 90 entries in 29 rows. Each row gives its status and, where one is recorded, how it was checked; results.csv adds the sources with the date they were read, where a public source exists.
+State as of 2026-11-17: 108 entries in 31 rows. Each row gives its status and, where one is recorded, how it was checked; results.csv adds the sources with the date they were read, where a public source exists.
 A DOI appears only once the deposit is public. *Deposit pending* means a deposit is in preparation.
 A row with no *Check* line has no verification recorded in the sources read.
 
 ## At a glance
 
-- 17 entries: accepted by a table or its maintainer
+- 20 entries: accepted by a table or its maintainer
 - 6 entries: better than the table, not yet listed
-- 39 entries: submitted to the table maintainers
+- 54 entries: submitted to the table maintainers
 - 2 entries: posted publicly
 - 15 entries: since beaten
 - 2 entries: found earlier by others
@@ -42,6 +42,10 @@ A row with no *Check* line has no verification recorded in the sources read.
   - Status: correction accepted by the project's maintainer
   - Check: accepted by a third party
   - Links: [GitHub issue](https://github.com/eumemic/exoplanets/issues/1)
+- **Stealthy configurations** (3 entries): Three non-lattice periodic configurations, in dimensions 18, 28 and 30 (formal duals of the Bierbrauer-Edel and Vardy record packings), added by H. Cohn to his table of stealth radius records.
+  - The table credits them to "Antoine Olivier, Formal duals of the Bierbrauer–Edel and Vardy record packings in dimensions 18, 28 and 30, personal communication, 2026".
+  - Check: accepted by a third party
+  - Links: [Cohn stealth table](https://cohn.mit.edu/stealth)
 
 ## Better than the table, not yet listed
 
@@ -61,6 +65,11 @@ A row with no *Check* line has no verification recorded in the sources read.
   - Submitted to codetables on 2026-10-19; the maintainer does not plan an update soon.
   - A catch-up of upper bounds, not a record.
   - Status: submitted, no update expected soon
+- **Exoplanets (NASA Exoplanet Archive)** (15 entries): Fifteen errata for the Planetary Systems table of the NASA Exoplanet Archive: rows whose values do not match the paper they cite as their reference.
+  - Each was checked against the published version of that paper, with a blind second pass by a separate AI agent.
+  - Sent to the archive's helpdesk on 2026-11-09; no reply is recorded.
+  - Status: submitted, no answer
+  - Check: internal audit
 
 ## Posted publicly
 
