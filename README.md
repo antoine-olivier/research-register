@@ -3,24 +3,24 @@
 Antoine Olivier, independent researcher (ORCID 0009-0009-9710-3682).
 The work is done with AI assistants under the author's direction. The author is responsible for it; no AI system is an author.
 
-State as of 2026-11-02: 90 entries in 28 rows. Each row gives its status and, where one is recorded, how it was checked; results.csv adds the sources with the date they were read, where a public source exists.
+State as of 2026-11-17: 90 entries in 29 rows. Each row gives its status and, where one is recorded, how it was checked; results.csv adds the sources with the date they were read, where a public source exists.
 A DOI appears only once the deposit is public. *Deposit pending* means a deposit is in preparation.
 A row with no *Check* line has no verification recorded in the sources read.
 
 ## At a glance
 
-- 20 entries: accepted by a table or its maintainer
+- 17 entries: accepted by a table or its maintainer
 - 6 entries: better than the table, not yet listed
-- 39 entries: submitted, no answer yet
+- 39 entries: submitted to the table maintainers
 - 2 entries: posted publicly
-- 12 entries: since beaten
+- 15 entries: since beaten
 - 2 entries: found earlier by others
 - 3 entries: negative results and refuted claims
 - 6 entries: not published yet
 
 ## Accepted by a table or its maintainer
 
-- **Constant-weight codes** (4 entries): Lower bounds A(25,6,11) ≥ 8720, A(27,8,11) ≥ 2422, A(28,8,11) ≥ 3791 and A(40,8,8) ≥ 3687, accepted in Brouwer's table of constant-weight codes (credit "Ol").
+- **Constant-weight codes**: Lower bound A(27,8,11) ≥ 2422, accepted in Brouwer's table of constant-weight codes (credit "Ol").
   - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
   - Links: [DOI](https://doi.org/10.5281/zenodo.23570165) · [Brouwer table](https://aeb.win.tue.nl/codes/Andw.html)
 - **Constant-weight codes** (8 entries): Lower bounds A(22,6,10) ≥ 2184, A(27,6,11) ≥ 19344, A(26,8,11) ≥ 2044, A(27,8,9) ≥ 1044, A(28,10,14) ≥ 817, A(30,10,11) ≥ 514, A(30,10,13) ≥ 940 and A(32,10,9) ≥ 307, accepted in Brouwer's table.
@@ -37,8 +37,8 @@ A row with no *Check* line has no verification recorded in the sources read.
   - Status: terms added to a reference sequence (not a record)
   - Check: accepted by a third party
   - Links: [OEIS history](https://oeis.org/history?seq=A321911) · [OEIS](https://oeis.org/A321911)
-- **Exoplanets (TESS)**: An input defect in the TRICERATOPS runs of the eumemic exoplanet catalogue (TIC 160420269) was reported; the maintainer acknowledged it and corrected the catalogue (55 signals change tier).
-  - Reported publicly as GitHub comments on 2026-10-15 and 2026-10-18.
+- **Exoplanets (TESS)**: An input defect in the TRICERATOPS runs of the eumemic exoplanet catalogue (TIC 160420269) was reported; the maintainer acknowledged it and corrected the catalogue (see the 15 and 16 October 2026 entries of its README).
+  - Reported publicly in a GitHub comment on 2026-10-15, with a follow-up on 2026-10-18; the catalogue's README credits the finding (issue #1).
   - Status: correction accepted by the project's maintainer
   - Check: accepted by a third party
   - Links: [GitHub issue](https://github.com/eumemic/exoplanets/issues/1)
@@ -46,16 +46,16 @@ A row with no *Check* line has no verification recorded in the sources read.
 ## Better than the table, not yet listed
 
 - **Cluster energies (Cambridge Cluster Database)** (6 entries): Six cluster energies below the Cambridge Cluster Database entries (mDz N = 74, 134, 177, 186; Z1 N = 54, 68).
-  - The database page had not changed as of 2026-11-02.
+  - The database tables had not changed as of 2026-11-17 (last modified 2024-07-25).
   - The Z1 values have not yet been compared with other published searches.
   - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
   - Links: [DOI](https://doi.org/10.5281/zenodo.23775350) · [CCD](https://www-wales.ch.cam.ac.uk/~wales/CCD/)
 
-## Submitted, no answer yet
+## Submitted to the table maintainers
 
 - **Rectilinear crossing numbers of K_n** (38 entries): 38 values of n (40, 44, 46, 48, 49, 52, 55, 57, 59-61, 66, 68-70, 72, 74, 76, 78, 80, 81, 83-86, 88-100) with counts below the 2015 table, checked by three separate programs (example n = 88: 867886 against 867887).
-  - Submitted to the table's maintainer on 2026-10-22, no answer.
-  - The table was unreachable on 2026-10-28, so the counts could not be compared online.
+  - Submitted to the table's maintainer on 2026-10-22; the maintainer acknowledged receipt on 2026-10-23.
+  - The table could not be reached on 2026-10-28 or on 2026-11-17, so the counts could not be compared online.
   - Check: two or more local checkers
 - **Linear codes (codetables)**: No [n,3,n-3] code over GF(9) for n ≥ 18 (19 upper bounds).
   - Submitted to codetables on 2026-10-19; the maintainer does not plan an update soon.
@@ -76,21 +76,25 @@ A row with no *Check* line has no verification recorded in the sources read.
 
 ## Since beaten
 
-- **Constant-weight codes** (3 entries): A(33,8,8) ≥ 1806 (now 1852, Lin), A(37,8,8) ≥ 2846 (now 2860, Lin) and A(29,8,8) ≥ 1062 (now 1064, Hu).
+- **Constant-weight codes** (3 entries): A(33,8,8) ≥ 1806 (now 1852, Lin), A(37,8,8) ≥ 2846 (now 2860, Lin) and A(29,8,8) ≥ 1062 (now 1064, Huang, table code Hu).
   - Each was accepted in Brouwer's table before being superseded.
   - Links: [Brouwer table](https://aeb.win.tue.nl/codes/Andw.html)
-- **Kissing numbers** (2 entries): Lower bounds τ33 ≥ 364352 and τ34 ≥ 384260 (now 370376 and 390990, Kravatskiy 2026).
+- **Constant-weight codes** (3 entries): A(25,6,11) ≥ 8720 (now 8733, Chang, table code Cha), A(28,8,11) ≥ 3791 (now 3832, Chang) and A(40,8,8) ≥ 3687 (now 3752, Wu).
+  - Each was accepted in Brouwer's table before being superseded.
+  - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
+  - Links: [DOI](https://doi.org/10.5281/zenodo.23570165) · [Brouwer table](https://aeb.win.tue.nl/codes/Andw.html)
+- **Kissing numbers** (2 entries): Lower bounds τ33 ≥ 364352 and τ34 ≥ 384260 (now 370408 and 390992, Kravatskiy 2026; table read 2026-11-17).
   - Check: two or more local checkers
   - Links: [Cohn table](https://cohn.mit.edu/kissing-numbers)
-- **Kissing numbers**: Lower bound τ37 ≥ 498216, superseded by 499816 (Lin, 2026-10-22) and now 505503 (Kravatskiy).
+- **Kissing numbers**: Lower bound τ37 ≥ 498216, superseded by 499816 (Lin, 2026-10-22) and now 505638 (Kravatskiy; table read 2026-11-17).
   - Links: [Cohn table](https://cohn.mit.edu/kissing-numbers)
-- **Kissing numbers**: Lower bound τ37 ≥ 500008, built from Lin's 499816 configuration (192 vectors added); superseded by 505503 (Kravatskiy).
+- **Kissing numbers**: Lower bound τ37 ≥ 500008, built from Lin's 499816 configuration (192 vectors added); superseded by 505638 (Kravatskiy; table read 2026-11-17).
   - The Zenodo record carries a supersession notice since 2026-10-29.
   - Links: [DOI](https://doi.org/10.5281/zenodo.23569153) · [Cohn table](https://cohn.mit.edu/kissing-numbers)
 - **Spherical codes**: Entry (13,72) 0.205422579377 was accepted in the spherical-codes table, then superseded by A. Jay's 2026 entry (0.205420952116).
   - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
   - Links: [DOI](https://doi.org/10.5281/zenodo.23776897) · [spherical-codes.org](https://spherical-codes.org/)
-- **Spherical codes** (4 entries): Four entries, (13,95), (15,75), (17,83) and (17,84), were superseded by H. Cohn's 2026 entries in the same table.
+- **Spherical codes** (4 entries): Four entries, (13,95), (15,75), (17,83) and (17,84), were superseded in the same table: (15,75) by an entry of H. Cohn (2026), the other three by entries of C. Smolen (2026).
   - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
   - Links: [DOI](https://doi.org/10.5281/zenodo.23776897) · [spherical-codes.org](https://spherical-codes.org/)
 
@@ -113,7 +117,7 @@ A row with no *Check* line has no verification recorded in the sources read.
 - **AlphaEvolve (frontiers)**: No AlphaEvolve record beaten.
   - An exact Heilbronn verifier was written; the AlphaEvolve configurations for n = 7 to 12 of its problem 60 (Heilbronn-type, in the cube) have no symmetry of the cube.
 - **Kissing numbers (dimension 5)**: No improvement found: no configuration of 41 points, none with inner products in the searched ring (numerical), and the upper bound 43 was not reached by this work.
-  - The table now gives 40 ≤ τ5 ≤ 43 (read 2026-11-02), from other work.
+  - The table now gives 40 ≤ τ5 ≤ 43 (read 2026-11-17), from other work.
   - Links: [Cohn table](https://cohn.mit.edu/kissing-numbers)
 
 ## Not published yet
