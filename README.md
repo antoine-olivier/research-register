@@ -141,9 +141,9 @@ A row with no *Check* line has no verification recorded in the sources read.
   - Status: preregistered prediction, awaiting data
   - Check: not verified
 - **Zeros of ζ in Lean**: Lean 4 theorems RH_up_to_14 and RH_up_to_15 about zeros of ζ, without sorry.
-  - The proofs have not passed an automated check, and the upstream project files they rely on could not be re-read.
-  - Unverified; not announced as new.
-  - Check: not verified
+  - On 24 October 2026 Comparator accepted both theorems with the Lean kernel and with nanoda, run by the author; the statement file matches the definitions of PrimeNumberTheoremAnd at commit 127b50e33f60.
+  - The result is classical; not announced as new.
+  - Check: Lean kernel and nanoda, run by the author with Comparator (24 October 2026)
 - **Strongly regular graphs**: 49 (target, p) cases of strongly regular graphs without an automorphism of order p; 48 of 49 are implied by Behbahani (2009), the remaining case (136,30,8,6), p = 29, is numerical and its novelty is not established.
   - Check: not verified
 - **3-SAT and ETH**: Barrier at one half: lemmas reviewed, no route to α > 1/2 found. One reviewer found 15 of 16 lemmas correct.
