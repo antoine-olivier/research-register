@@ -3,17 +3,17 @@
 Antoine Olivier, independent researcher (ORCID 0009-0009-9710-3682).
 The work is done with AI assistants under the author's direction. The author is responsible for it; no AI system is an author.
 
-State as of 2026-11-17: 108 entries in 31 rows. Each row gives its status and, where one is recorded, how it was checked; results.csv adds the sources with the date they were read, where a public source exists.
+State as of 2026-11-20 for Brouwer's table, 2026-11-17 for the other tables: 108 entries in 32 rows. Each row gives its status and, where one is recorded, how it was checked; results.csv adds the sources with the date they were read, where a public source exists.
 A DOI appears only once the deposit is public. *Deposit pending* means a deposit is in preparation.
 A row with no *Check* line has no verification recorded in the sources read.
 
 ## At a glance
 
-- 20 entries: accepted by a table or its maintainer
+- 19 entries: accepted by a table or its maintainer
 - 6 entries: better than the table, not yet listed
 - 54 entries: submitted to the table maintainers
 - 2 entries: posted publicly
-- 15 entries: since beaten
+- 16 entries: since beaten
 - 2 entries: found earlier by others
 - 3 entries: negative results and refuted claims
 - 6 entries: not published yet
@@ -23,7 +23,7 @@ A row with no *Check* line has no verification recorded in the sources read.
 - **Constant-weight codes**: Lower bound A(27,8,11) ≥ 2422, accepted in Brouwer's table of constant-weight codes (credit "Ol").
   - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
   - Links: [DOI](https://doi.org/10.5281/zenodo.23570165) · [Brouwer table](https://aeb.win.tue.nl/codes/Andw.html)
-- **Constant-weight codes** (8 entries): Lower bounds A(22,6,10) ≥ 2184, A(27,6,11) ≥ 19344, A(26,8,11) ≥ 2044, A(27,8,9) ≥ 1044, A(28,10,14) ≥ 817, A(30,10,11) ≥ 514, A(30,10,13) ≥ 940 and A(32,10,9) ≥ 307, accepted in Brouwer's table.
+- **Constant-weight codes** (7 entries): Lower bounds A(27,6,11) ≥ 19344, A(26,8,11) ≥ 2044, A(27,8,9) ≥ 1044, A(28,10,14) ≥ 817, A(30,10,11) ≥ 514, A(30,10,13) ≥ 940 and A(32,10,9) ≥ 307, accepted in Brouwer's table.
   - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
   - Links: [DOI](https://doi.org/10.5281/zenodo.23776838) · [Brouwer table](https://aeb.win.tue.nl/codes/Andw.html)
 - **Spherical codes** (5 entries): Five entries of the spherical-codes table, credited "Antoine Olivier, 2026": (11,82) 0.263018342364; (12,66) 0.214718112242; (12,92) 0.258276397340; (14,76) 0.189882980940; (14,80) 0.195566522972 (maximum cosine).
@@ -85,6 +85,10 @@ A row with no *Check* line has no verification recorded in the sources read.
 
 ## Since beaten
 
+- **Constant-weight codes**: A(22,6,10) ≥ 2184 (now 2186, Milshtein, table code Mi).
+  - It was accepted in Brouwer's table before being superseded.
+  - Check: second checker written by DeepSeek V4.1 Flash (29 October 2026), with negative controls
+  - Links: [DOI](https://doi.org/10.5281/zenodo.23776838) · [Brouwer table](https://aeb.win.tue.nl/codes/Andw.html)
 - **Constant-weight codes** (3 entries): A(33,8,8) ≥ 1806 (now 1852, Lin), A(37,8,8) ≥ 2846 (now 2860, Lin) and A(29,8,8) ≥ 1062 (now 1064, Huang, table code Hu).
   - Each was accepted in Brouwer's table before being superseded.
   - Links: [Brouwer table](https://aeb.win.tue.nl/codes/Andw.html)
